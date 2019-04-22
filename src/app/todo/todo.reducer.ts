@@ -1,8 +1,8 @@
 import * as fromTodo from './todo.actions';
 import { Todo } from '../models/todo.model';
 
-const todo1 = new Todo('Vencer a Thanos');
-const todo2 = new Todo('Salvar al Mundo');
+const todo1 = new Todo('Tarea 1');
+const todo2 = new Todo('Tarea 2');
 todo2.completado = true;
 const estadoInicial: Todo[] = [ todo1, todo2 ]; // Arreglo de todos
 
